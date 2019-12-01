@@ -10,7 +10,7 @@ Must sign up for API Access at [Open Weather Map](https://openweathermap.org).
 
 ### Platform
 
-Used [React js](https://reactjs.org/docs/getting-started.html).
+[React js](https://reactjs.org/docs/getting-started.html).
 
 ## Goal of prject
 
@@ -31,7 +31,7 @@ I use [VS Code](https://code.visualstudio.com/download), and added the [live ser
 - [x] ~~Add Weather Image to the Display~~
 - add a menu to the app
   - Control color _maybe_
-  - Control display section
+  - Control details section
 - [x] ~~Fix bugs after upload~~
 
 # Issues
