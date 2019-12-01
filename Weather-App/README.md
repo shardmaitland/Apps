@@ -33,6 +33,6 @@ I use [VS Code](https://code.visualstudio.com/download), and added the [live ser
 
 # Issues
 
--[x] Whenever I added the requireed code that pulls the necessary images based on the API icon response, I get a module not found error.
+- [x] Whenever I added the requireed code that pulls the necessary images based on the API icon response, I get a module not found error.
 
 - [ ] Repo breakes after upload
