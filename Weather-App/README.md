@@ -26,7 +26,12 @@ I use [VS Code](https://code.visualstudio.com/download), and added the [live ser
 # To Do
 
 - Add Weather Image to the Display
+- add a menu to the app
+  - Control color _maybe_
+  - Control display section
+- Fix bugs after upload
 
 # Issues
 
 - Whenever I added the requireed code that pulls the necessary images based on the API icon response, I get a module not found error.
+- Repo breakes after upload
