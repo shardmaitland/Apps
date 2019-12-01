@@ -1,4 +1,14 @@
 # Weather-App
+### Main window
+<img src="images/prev_1.jpg" width="auto" height="610">
+
+### Scrollable Preview of the week
+
+<img src="images/prev_2.jpg" width="auto" height="610">
+
+### Searching a new location
+
+<img src="images/prev_3.jpg" width="auto" height="610">
 
 ### Resources
 
@@ -23,6 +33,9 @@ Must sign up for API Access at [Open Weather Map](https://openweathermap.org).
 - Simply download repo.
 - Load the build folder into a project workspace.
 - Run **index.html** on a live server.
+- To search click the search icon
+  - Type countries, or states only, does not accept zip or full address format
+- Click the search icon once more to search that location and see display update
 
 I use [VS Code](https://code.visualstudio.com/download), and added the [live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extention
 
