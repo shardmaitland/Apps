@@ -14,9 +14,11 @@ Used [React js](https://reactjs.org/docs/getting-started.html).
 
 ## Goal of prject
 
-To Pull Data from an **API** you must first go to
+- To Pull Data from the weather **API** and display it to the user.
+- Allow User to type a location, country or state only and search that area for weather updates.
+- Pull and filter forcast data from response, and display each day
 
-# How to
+# How to use
 
 #### Create
 
