@@ -1,7 +1,6 @@
 # Weather-App
 
-##Goal of prject  
-
+## Goal of prject
 
 # How to
 
