@@ -28,11 +28,11 @@ I use [VS Code](https://code.visualstudio.com/download), and added the [live ser
 
 # To Do
 
-- Add Weather Image to the Display
+- [x] Add Weather Image to the Display
 - add a menu to the app
   - Control color _maybe_
   - Control display section
-- Fix bugs after upload
+- [x] Fix bugs after upload
 
 # Issues
 
