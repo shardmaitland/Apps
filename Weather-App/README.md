@@ -29,4 +29,4 @@ I use [VS Code](https://code.visualstudio.com/download), and added the [live ser
 
 # Issues
 
-- Whenever I add the require code that pulls the necessary images based on the API icon response, I get a module not found error.
+- Whenever I added the requireed code that pulls the necessary images based on the API icon response, I get a module not found error.
