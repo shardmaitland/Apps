@@ -20,7 +20,13 @@ Used [React js](https://reactjs.org/docs/getting-started.html).
 
 # How to use
 
-#### Create
+Simply clone or download repo then run **index.html** on a live server.
+I use [VS Code](https://code.visualstudio.com/download), and added the [live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extention.
 
-Open folder in vs or favourite code editor and run index.html on a server.
-I use Live Server-Ritwicky Dey for vs code
+# To Do
+
+- Add Weather Image to the Display
+
+# Issues
+
+- Whenever I add the require code that pulls the necessary images based on the API icon response, I get a module not found error.
