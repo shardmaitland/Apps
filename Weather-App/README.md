@@ -20,8 +20,8 @@ Used [React js](https://reactjs.org/docs/getting-started.html).
 
 # How to use
 
-Simply clone or download repo then run **index.html** on a live server.
-I use [VS Code](https://code.visualstudio.com/download), and added the [live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extention.
+~~Simply clone or download repo then run **index.html** on a live server.
+I use [VS Code](https://code.visualstudio.com/download), and added the [live server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extention~~
 
 # To Do
 
