@@ -30,6 +30,7 @@ Must sign up for API Access at [Open Weather Map](https://openweathermap.org).
 
 # How to use
 
+- For best viewing resize window to a mobile size, preferably iphone x in the inspector or minimize width of window to mobile width.
 - Simply download repo.
 - Load the build folder into a project workspace.
 - Run **index.html** on a live server.
