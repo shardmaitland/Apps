@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Menuz</title>
+    <!-- Mian css -->
+    <link rel="stylesheet" href="main.css" />
+    <!-- Hamburgers See https://jonsuh.com/hamburgers/ -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css"
+    />
+  </head>
+  <body>
+    <!-- Lowercase for style. simple is the default style -->
+    <nav class="menuz simple">
+      <a class="logo" href="#">Menuz</a>
+      <div class="menuz-list">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Docs</a></li>
+          <li>
+            <a class="dropdown">Change Menuz</a>
+            <div class="dropMenu">
+              <a>Boring</a>
+              <a>Simple</a>
+            </div>
+          </li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+      <button class="hamburger hamburger--collapse" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+    </nav>
+
+    <script src="menuz.js"></script>
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+  </body>
+</html>

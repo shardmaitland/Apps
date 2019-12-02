@@ -1,0 +1,109 @@
+// Normalizing
+// Remove normalizing if you wish to do it yourself
+body {
+  margin: 0;
+}
+// Set up variables
+// Theme
+$listColor: #c5c6c7;
+$logoColor: #66fcf1;
+$background: #1f2833;
+$accent: #66fcf1;
+
+.menuz {
+  background-color: $background;
+  display: flex;
+  justify-content: space-around;
+  padding: 2vh 5vw;
+  .logo {
+    color: $logoColor;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: auto;
+  }
+  //   Hamburger menu color
+  .hamburger {
+    display: none; //Hide menu on large devices
+  }
+  .hamburger-box span {
+    background-color: $logoColor;
+    &::after,
+    &::before {
+      background-color: $logoColor;
+    }
+  }
+
+  .menuz-list {
+    ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-evenly;
+      margin: auto;
+      padding: 0;
+
+      &::nth-child(3) {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+      }
+    }
+    li {
+      padding: 0 1vw;
+    }
+    div {
+      display: none;
+    }
+    @media only screen and (max-width: 768px) {
+      li {
+        padding: 2vh 1vw;
+        a {
+          padding: 1vh 0;
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+    a {
+      color: $listColor;
+      text-decoration: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    .menuz {
+      flex-direction: column;
+      padding: 2vh 10vw;
+      .logo {
+        margin: 0;
+      }
+      //   Hamburger menu color
+      .hamburger {
+        display: initial; //Hide menu on large devices
+        position: fixed;
+        top: 0;
+        right: 5vw;
+      }
+    }
+
+    .menuz-list {
+      padding: 3vh;
+      margin: auto;
+      text-align: center;
+      height: 0;
+      overflow: hidden;
+      display: none;
+      ul {
+        flex-direction: column;
+      }
+      div {
+        display: none;
+      }
+      a {
+        color: $listColor;
+        text-decoration: none;
+      }
+    }
+  }
+}

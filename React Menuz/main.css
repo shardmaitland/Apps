@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+}
+
+.menuz {
+  background-color: #1f2833;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 2vh 5vw;
+}
+
+.menuz .logo {
+  color: #66fcf1;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: auto;
+}
+
+.menuz .hamburger {
+  display: none;
+}
+
+.menuz .hamburger-box span {
+  background-color: #66fcf1;
+}
+
+.menuz .hamburger-box span::after, .menuz .hamburger-box span::before {
+  background-color: #66fcf1;
+}
+
+.menuz .menuz-list ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: auto;
+  padding: 0;
+}
+
+.menuz .menuz-list ul::nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+}
+
+.menuz .menuz-list li {
+  padding: 0 1vw;
+}
+
+.menuz .menuz-list div {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .menuz .menuz-list li {
+    padding: 2vh 1vw;
+  }
+  .menuz .menuz-list li a {
+    padding: 1vh 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.menuz .menuz-list a {
+  color: #c5c6c7;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  body .menuz {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 2vh 10vw;
+  }
+  body .menuz .logo {
+    margin: 0;
+  }
+  body .menuz .hamburger {
+    display: initial;
+    position: fixed;
+    top: 0;
+    right: 5vw;
+  }
+  body .menuz-list {
+    padding: 3vh;
+    margin: auto;
+    text-align: center;
+    height: 0;
+    overflow: hidden;
+    display: none;
+  }
+  body .menuz-list ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .menuz-list div {
+    display: none;
+  }
+  body .menuz-list a {
+    color: #c5c6c7;
+    text-decoration: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */
