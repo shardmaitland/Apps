@@ -7,15 +7,21 @@
     <title>Menuz</title>
     <!-- Mian css -->
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="menuz.css" />
     <!-- Hamburgers See https://jonsuh.com/hamburgers/ -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css"
     />
+    <!-- Animate CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
   </head>
   <body>
     <!-- Lowercase for style. simple is the default style -->
-    <nav class="menuz simple">
+    <nav class="menuz boring">
       <a class="logo" href="#">Menuz</a>
       <div class="menuz-list">
         <ul>
@@ -26,6 +32,7 @@
             <div class="dropMenu">
               <a>Boring</a>
               <a>Simple</a>
+              <a>First</a>
             </div>
           </li>
           <li><a href="#">Contact</a></li>
@@ -38,7 +45,15 @@
         </span>
       </button>
     </nav>
-
+    <div class="container">
+      <section class="jumbutron">
+        <h1>MENUZ</h1>
+        <p>Your place for custom menus snippets</p>
+      </section>
+      <section class="display">
+        <h4>Menuz Style selected: <span id="menuzStyle">boring</span></h4>
+      </section>
+    </div>
     <script src="menuz.js"></script>
     <script src="main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>

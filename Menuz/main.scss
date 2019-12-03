@@ -1,0 +1,26 @@
+// Normalizing
+// Remove normalizing if you wish to do it yourself
+body {
+  margin: 0;
+}
+// Set up variables
+// Theme
+$listColor: #c5c6c7;
+$logoColor: #66fcf1;
+$background: #1f2833;
+$accent: #66fcf1;
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+.jumbutron {
+  text-align: center;
+}
+.display {
+  background-color: $background;
+  color: $listColor;
+  text-align: center;
+  span {
+    color: $accent;
+  }
+}

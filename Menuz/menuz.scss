@@ -9,11 +9,14 @@ $listColor: #c5c6c7;
 $logoColor: #66fcf1;
 $background: #1f2833;
 $accent: #66fcf1;
-
+.container {
+  max-width: 900px;
+  margin: auto;
+}
 .menuz {
   background-color: $background;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 2vh 5vw;
   .logo {
     color: $logoColor;

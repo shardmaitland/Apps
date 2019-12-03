@@ -2,13 +2,19 @@ body {
   margin: 0;
 }
 
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
 .menuz {
   background-color: #1f2833;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   padding: 2vh 5vw;
 }
 
@@ -122,4 +128,4 @@ body {
     text-decoration: none;
   }
 }
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=menuz.css.map */

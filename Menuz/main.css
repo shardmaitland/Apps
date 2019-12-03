@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.jumbutron {
+  text-align: center;
+}
+
+.display {
+  background-color: #1f2833;
+  color: #c5c6c7;
+  text-align: center;
+}
+
+.display span {
+  color: #66fcf1;
+}
+/*# sourceMappingURL=main.css.map */
