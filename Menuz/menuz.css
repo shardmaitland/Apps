@@ -37,6 +37,12 @@ body {
   background-color: #66fcf1;
 }
 
+.menuz .hamburger.is-active .hamburger-inner,
+.menuz .hamburger.is-active .hamburger-inner:after,
+.menuz .hamburger.is-active .hamburger-inner:before {
+  background-color: #66fcf1;
+}
+
 .menuz .menuz-list ul {
   list-style-type: none;
   display: -webkit-box;

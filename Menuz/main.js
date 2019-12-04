@@ -4,7 +4,15 @@ menuzStyle = document.getElementsByClassName("menuz")[0].className;
 dropdown = document.getElementsByClassName("dropdown")[0];
 dropMenu = document.getElementsByClassName("dropMenu")[0];
 menuSelcted = document.getElementById("menuzStyle");
+let menuOpened = false;
 menu.addEventListener("click", function() {
+  if (menuOpened == false) {
+    menu.classList.add("is-active");
+    menuOpened = true;
+  } else {
+    menu.classList.remove("is-active");
+    menuOpened = false;
+  }
   menuzAnimator(menuzStyle);
 });
 
