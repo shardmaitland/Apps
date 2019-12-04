@@ -26,25 +26,27 @@ dropdown.addEventListener("click", function() {
 // update menuzStyle based on menuz selection
 // When user select a style it updates the animation
 for (let i = 0; i < dropMenu.children.length; i++) {
-  dropMenu.children[i].addEventListener("click", () => {
-    menuzStyle = "menuz " + dropMenu.children[i].innerHTML.toLowerCase();
-    dropMenu.children[i].style.fontWeight = "bold";
-    // console.log(dropMenu.children[i].innerHTML);
-    // On click update tutorial and information in html page
-    menuSelcted.innerHTML = dropMenu.children[i].innerHTML;
-    console.log(menuSelcted.innerHTML);
-    for (let j = 0; j < dropMenu.children.length; j++) {
-      if (i != j) {
-        dropMenu.children[j].style.fontWeight = "normal";
+  if (i != 4) {
+    dropMenu.children[i].addEventListener("click", () => {
+      menuzStyle = "menuz " + dropMenu.children[i].innerHTML.toLowerCase();
+      dropMenu.children[i].style.fontWeight = "bold";
+      // console.log(dropMenu.children[i].innerHTML);
+      // On click update tutorial and information in html page
+      menuSelcted.innerHTML = dropMenu.children[i].innerHTML;
+      console.log(menuSelcted.innerHTML);
+      for (let j = 0; j < dropMenu.children.length; j++) {
+        if (i != j) {
+          dropMenu.children[j].style.fontWeight = "normal";
+        }
       }
-    }
-    // Remove all classes from list items for newly selected style to work
-    for (let i = 0; i < menuz.children[0].children.length; i++) {
-      menuz.children[0].children[i].classList.remove(
-        "animated",
-        "bounce",
-        "fast"
-      );
-    }
-  });
+      // Remove all classes from list items for newly selected style to work
+      for (let i = 0; i < menuz.children[0].children.length; i++) {
+        menuz.children[0].children[i].classList.remove(
+          "animated",
+          "bounce",
+          "fast"
+        );
+      }
+    });
+  }
 }
